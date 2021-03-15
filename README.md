@@ -15,11 +15,11 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Screenshot
 
-![Solution screenshot](https://github.com/alexdbejenaru/Pricing-block/blob/main/images/Screenshot%20web.jpg)
+![Solution screenshot](https://github.com/alexdbejenaru/Profile_card_component/blob/main/images/Screenshot%20web.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://alexdbejenaru.github.io/Pricing-block/)
+- Solution URL: [Add solution URL here](https://alexdbejenaru.github.io/Profile_card_component/)
 
 ### Built with
 
