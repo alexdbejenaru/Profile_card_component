@@ -1,0 +1,115 @@
+@import 'resets', 'config';
+
+body {
+    font-family: $font;
+    color: $vdk_blue;
+}
+
+.main {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.circles {
+
+    .c1, .c2 {
+        position: absolute;
+    }
+
+    .c1 {
+        top: -250px;
+        left: 200px;
+    }
+
+    .c2 {
+        bottom: -350px;
+        right: 200px;
+    }
+}
+
+.container {
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 23.5rem;
+    width: 20rem;
+    margin: 0 auto;
+    box-shadow: 0 .5rem 3rem .5rem $black;
+    background-color: $white;
+    position: relative;
+}
+
+.cover_image {
+    
+    img {
+        margin: 0 auto;
+        width: 100%;
+        height: 9rem;
+    }
+}
+
+.profile_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        border-radius: 50%;
+        margin: -3.6rem 0 1.5rem 0;
+        border: 5px solid $white;
+    }
+
+    .name_age {
+        font-weight: 700;
+        margin-bottom: .8rem;
+        font-size: 1.1rem;
+
+        span {
+            font-weight: 400;
+            opacity: .7;
+            margin-left: .5rem;
+        }
+    }
+
+    .city {
+        opacity: .7;
+        margin-bottom: 1.5rem;
+        font-size: .9rem;
+    }
+}
+
+.meta_data {
+    display: flex;
+    justify-content: center;
+    padding: 0 3.5rem;
+    text-align: center;
+    border-top: 1px solid $lt_gray;
+
+    div {
+        margin: .8rem 0;
+        padding: 1rem 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+}
+
+footer {
+    position: relative;
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}

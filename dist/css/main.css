@@ -1,0 +1,145 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+}
+
+.main {
+  background-color: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.circles .c1, .circles .c2 {
+  position: absolute;
+}
+
+.circles .c1 {
+  top: -250px;
+  left: 200px;
+}
+
+.circles .c2 {
+  bottom: -350px;
+  right: 200px;
+}
+
+.container {
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 23.5rem;
+  width: 20rem;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0.5rem 3rem 0.5rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 3rem 0.5rem rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: relative;
+}
+
+.cover_image img {
+  margin: 0 auto;
+  width: 100%;
+  height: 9rem;
+}
+
+.profile_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile_card img {
+  border-radius: 50%;
+  margin: -3.6rem 0 1.5rem 0;
+  border: 5px solid white;
+}
+
+.profile_card .name_age {
+  font-weight: 700;
+  margin-bottom: .8rem;
+  font-size: 1.1rem;
+}
+
+.profile_card .name_age span {
+  font-weight: 400;
+  opacity: .7;
+  margin-left: .5rem;
+}
+
+.profile_card .city {
+  opacity: .7;
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+}
+
+.meta_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 3.5rem;
+  text-align: center;
+  border-top: 1px solid rgba(150, 150, 150, 0.2);
+}
+
+.meta_data div {
+  margin: .8rem 0;
+  padding: 1rem 1.3rem;
+}
+
+.meta_data h3 {
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+}
+
+.meta_data p {
+  font-size: .7rem;
+}
+
+footer {
+  position: relative;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
