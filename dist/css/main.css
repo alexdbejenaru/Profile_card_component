@@ -35,21 +35,22 @@ body {
   position: relative;
   overflow: hidden;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .circles .c1, .circles .c2 {
   position: absolute;
+  background-attachment: local;
 }
 
 .circles .c1 {
-  top: -250px;
-  left: 200px;
+  top: -500px;
+  left: -750px;
 }
 
 .circles .c2 {
-  bottom: -350px;
-  right: 200px;
+  bottom: -500px;
+  right: -730px;
 }
 
 .container {
@@ -62,6 +63,13 @@ body {
           box-shadow: 0 0.5rem 3rem 0.5rem rgba(0, 0, 0, 0.1);
   background-color: white;
   position: relative;
+}
+
+.container:hover {
+  -webkit-transform: translateY(1rem) scale(1.05);
+          transform: translateY(1rem) scale(1.05);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .cover_image img {
@@ -141,5 +149,20 @@ footer {
   bottom: 2rem;
   width: 100%;
   text-align: center;
+}
+
+@media screen and (min-width: 756px) {
+  .circles .c1 {
+    -webkit-transform: translate(500px, 100px);
+            transform: translate(500px, 100px);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .circles .c2 {
+    -webkit-transform: translate(-550px, 50px);
+            transform: translate(-550px, 50px);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
 }
 /*# sourceMappingURL=main.css.map */
